@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     webpack: (config, argv) => {
-        if (!process.env.BUILD_TYPE === 'ilc') return config;
+        if (process.env.BUILD_TYPE !== 'ilc') return config;
         config.entry = path.resolve(__dirname, 'src/client.ts')
         config.output = {
             filename: 'client.js',

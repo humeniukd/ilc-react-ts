@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { TopBar } from "./components/TopBar";
+import { DesktopMenu } from "./components/DesktopMenu";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
+    return (<div className="App">
+        <TopBar />
+        <div className="header-block">
+            <DesktopMenu />
+        </div>
+    </div>)
 }
 
 export default App;

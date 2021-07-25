@@ -1,0 +1,24 @@
+:root {
+  --c-primary: #7f28c4;
+  --c-light: #f1f2f3;
+  --c-avon-secondary: red;
+  --search-bar-button-right: 10px;
+  --font-family: "Montserrat", sans-serif;
+  --font-family--secondary: "Montserrat", sans-serif;
+  --font-family--tertiary: "Montserrat-Bold";
+  --c-white: #fff;
+  --c-text: #1d1f22;
+  --text-primary: #546264;
+  --text-secondary: #999;
+  --spacer-sm: 1.625rem;
+  --spacer-xs: 1.4rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.search-bar {
+  display: block;
+  position: relative;
+  width: 20rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 0px 1rem;
+  margin-top: .5rem;
+  margin-right: 2.2rem;
+  border: 1px solid #ccc7c7;
+  height: 2rem;
+
+  &__input {
+    outline: none;
+    font-size: .9rem;
+    flex-grow: 1;
+    background: transparent;
+    text-align: var(--search-bar-input-text-align);
+    width: 100%;
+    height: 100%;
+    border: none
+  }
+  &__button {
+    top: .4em;
+    position: absolute;
+    bottom: var(--spacer-xs);
+    right: .4em;
+  }
+}
+
